@@ -3,7 +3,7 @@
 This is a boilerplate for 101 Ways Typescript coding test.
 
 ### Setup
-This repository runs using `pnpm` as most modern package dependency has shifted away from `npm` or `yarn`. To install yarn simply run:
+This repository runs using `pnpm` as most modern package dependency has shifted away from `npm` or `yarn`. To install pnpm simply run:
 
 `npm install --global pnpm`
 
