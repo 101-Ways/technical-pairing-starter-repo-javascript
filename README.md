@@ -5,7 +5,7 @@ This is a boilerplate for 101 Ways Typescript coding test.
 ### Setup
 This repository runs using `pnpm` as most modern package dependency has shifted away from `npm` or `yarn`. To install yarn simply run:
 
-`npm install --global yarn`
+`npm install --global pnpm`
 
 ### How To Run The File:
 You will be expected to create your solution in the `src/index.ts` directory. To run this file simply:
