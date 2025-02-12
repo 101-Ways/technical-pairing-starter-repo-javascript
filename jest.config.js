@@ -1,4 +1,8 @@
 module.exports = {
-    testEnvironment: "node",
-    testMatch: ["**/?(*.)+(spec|test).[jt]s?(x)"],
+  preset: "ts-jest",
+  testEnvironment: "node",
+  transform: {
+    "node_modules/variables/.+\\.(j|t)sx?$": "ts-jest",
+  },
+  transformIgnorePatterns: ["node_modules/(?!variables/.*)"],
 };
